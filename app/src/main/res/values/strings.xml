@@ -1,0 +1,10 @@
+<resources>
+	<string name="app_name">推拉流Demo</string>
+	<string name="videoly_videodown">V-%1$skbps\u2193</string>
+	<string name="videoly_audiodown">A-%1$skbps\u2193</string>
+	<string name="videoly_fps">FPS-%1$s</string>
+	<string name="videoly_videodelay">V_DELAY-%1$sms</string>
+	<string name="videoly_audiodelay">A_DELAY-%1$sms</string>
+	<string name="videoly_push_audioup">A-%1$skbps\u2191</string>
+	<string name="videoly_push_videoups">V-%1$skbps\u2191</string>
+</resources>

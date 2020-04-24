@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@drawable/login"
+	android:gravity="center"
+	android:orientation="vertical"
+	android:paddingLeft="30dp"
+	android:paddingRight="30dp">
+
+	<EditText
+		android:id="@+id/rtmp_pull_et"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:hint="请输入拉流地址"
+		android:text="rtmp://pull.3ttest.cn/sdk2/" />
+
+	<Button
+		android:id="@+id/rtmp_pull_bt"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:text="开始拉流" />
+
+	<EditText
+		android:id="@+id/rtmp_push_et"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:hint="请输入推流地址"
+		android:text="rtmp://push.3ttest.cn/sdk2/" />
+
+	<Button
+		android:id="@+id/rtmp_push_bt"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:text="开始推流" />
+</LinearLayout>

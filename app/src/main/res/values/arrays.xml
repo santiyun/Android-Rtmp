@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="ijk_render_modes">
+		<item>TTT_IJK_ILL_PARENT</item>
+		<item>TTT_IJK_FIT_PARENT</item>
+		<item>TTT_IJK_WRAP_CONTENT</item>
+		<item>TTT_IJK_MATCH_PARENT</item>
+		<item>TTT_IJK_16_9_FIT_PARENT</item>
+		<item>TTT_IJK_4_3_FIT_PARENT</item>
+	</string-array>
+</resources>
