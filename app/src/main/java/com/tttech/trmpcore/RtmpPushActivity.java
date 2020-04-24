@@ -5,7 +5,6 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.os.Bundle;
-import android.support.v4.content.LocalBroadcastManager;
 import android.view.SurfaceView;
 import android.view.View;
 import android.view.ViewGroup;
@@ -58,7 +57,7 @@ public class RtmpPushActivity extends BaseActivity implements View.OnClickListen
         }
 
         try {
-            LocalBroadcastManager.getInstance(mContext).unregisterReceiver(mMyLocalBroadcastReceiver);
+            mContext.unregisterReceiver(mMyLocalBroadcastReceiver);
         } catch (Exception ignored) {
         }
     }

@@ -5,12 +5,13 @@ import android.app.AlertDialog;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
 import android.text.TextUtils;
 import android.view.Window;
 import android.view.WindowManager;
 
 import com.wushuangtech.wstechapi.TTTRtcEngine;
+
+import androidx.annotation.Nullable;
 
 /**
  * Created by wangzhiguo on 17/10/12.

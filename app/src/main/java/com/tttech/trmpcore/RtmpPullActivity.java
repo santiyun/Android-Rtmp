@@ -2,7 +2,6 @@ package com.tttech.trmpcore;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
@@ -14,6 +13,7 @@ import android.widget.Toast;
 
 import com.wushuangtech.library.Constants;
 
+import androidx.annotation.Nullable;
 import ttt.ijk.media.exo.widget.media.IjkVideoView;
 
 public class RtmpPullActivity extends BaseActivity {
